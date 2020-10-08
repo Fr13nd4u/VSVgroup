@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("../font/BebasNeue Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "BebasNeueBolt";
+  src: url("../font/BebasNeue Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden; }
+
+.header {
+  background-image: url(../img/bg.png); }
+  .header a, .header p, .header span, .header h1, .header h2 {
+    color: #fff; }
+  .header .logo {
+    margin: 22px 83px 23px 89px; }
+    .header .logo p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 24px;
+      padding-left: 20px; }
+  .header .dropdown-menu {
+    background: transparent; }
+    .header .dropdown-menu .dropdown-item {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      opacity: 0.7;
+      background: none; }
+    .header .dropdown-menu .dropdown-item:hover {
+      opacity: 1; }
+  .header .navbar {
+    background: transparent !important; }
+    .header .navbar .nav-link {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      opacity: 0.7;
+      margin-right: 10px; }
+      .header .navbar .nav-link img {
+        padding-left: 10px; }
+    .header .navbar .nav-link:hover,
+    .header .navbar .nav-link:focus {
+      color: #fff !important;
+      opacity: 1; }
+    .header .navbar .navbar-light .navbar-toggler {
+      color: rgba(0, 0, 0, 0.5);
+      border-color: rgba(0, 0, 0, 0.1); }
+    .header .navbar .call img {
+      background: #fff;
+      border-radius: 50%;
+      padding: 12px;
+      margin-left: 130px; }
+    .header .navbar .call p {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      margin: 5px 10px; }
+    .header .navbar .butn {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #E92626;
+      letter-spacing: 0.05em;
+      background: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 18px 32px;
+      margin-left: 76px;
+      transition: 0.4s; }
+    .header .navbar .butn:hover {
+      background: #E92626;
+      color: #fff;
+      transition: 0.4s; }
+    .header .navbar .web img {
+      background: #fff;
+      border-radius: 50%;
+      padding: 13px;
+      margin-left: 209px; }
+    .header .navbar .web p {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      padding: 16px 9px; }
+  .header .line {
+    width: 1734px;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    margin-top: -7px;
+    margin-left: 100px; }
+  .header .container_1 {
+    max-width: 1170px;
+    margin: auto; }
+  .header .colum {
+    flex-direction: column; }
+  .header .header-about {
+    margin-top: 133px; }
+    .header .header-about h1 {
+      font-family: "BebasNeueRegular", sans-serif;
+      font-size: 130px;
+      line-height: 132px;
+      text-transform: uppercase; }
+      .header .header-about h1 span {
+        font-family: "BebasNeueBolt", sans-serif; }
+    .header .header-about .certeficate {
+      margin-top: 82px;
+      margin-left: 113px; }
+      .header .header-about .certeficate h2 {
+        font-family: "BebasNeueRegular", sans-serif;
+        font-size: 48px;
+        line-height: 50px;
+        text-transform: uppercase; }
+        .header .header-about .certeficate h2 span {
+          font-family: "BebasNeueBolt", sans-serif; }
+      .header .header-about .certeficate .certf_img {
+        margin-top: 54px;
+        margin-left: -11px; }
+      .header .header-about .certeficate .sertf_item {
+        background-color: #fff;
+        margin-top: 10px;
+        margin-right: 19px;
+        padding: 5px 23px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.4s;
+        margin-bottom: 127px; }
+      .header .header-about .certeficate .sertf_item:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px dashed rgba(255, 255, 255, 0.5);
+        transition: 0.4s; }
+  .header .about_btn {
+    margin-top: 65px;
+    margin-left: 1px; }
+    .header .about_btn img {
+      padding-right: 15px; }
+    .header .about_btn a {
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 40px 28px 28px;
+      background: #E92626;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.4s; }
+    .header .about_btn a:hover {
+      color: #E92626;
+      background: #fff;
+      transition: 0.4s; }
+    .header .about_btn p {
+      padding-left: 50px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFF; }
+
+.head_title {
+  padding: 71px 0 50px 114px; }
+  .head_title h3 {
+    font-family: "BebasNeueRegular", sans-serif;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: uppercase; }
+    .head_title h3 span {
+      font-family: "BebasNeueBolt", sans-serif;
+      color: #E92626; }
+  .head_title h2 {
+    font-family: "BebasNeueRegular", sans-serif;
+    font-size: 130px;
+    line-height: 92px;
+    text-transform: uppercase;
+    color: #2A2A2A;
+    padding-left: 241px; }
+
+.solution {
+  max-width: 1350px;
+  margin: auto;
+  background: #F8F9FA;
+  margin-top: 110px; }
+  .solution h2, .solution h3, .solution h5 {
+    color: #2A2A2A; }
+  .solution .card_content {
+    max-width: 1170px;
+    margin: auto; }
+  .solution .card {
+    width: 285px;
+    border-radius: 5px;
+    padding-bottom: 10px; }
+  .solution .card:nth-child(2) {
+    background: #0041A5;
+    box-shadow: 0px 5px 10px rgba(42, 42, 42, 0.1); }
+    .solution .card:nth-child(2) .card-img-top {
+      background-color: #E92626; }
+  .solution .blue_line {
+    width: 251px;
+    height: 10px;
+    background: #003381;
+    border-radius: 5px;
+    position: relative;
+    top: 19px;
+    left: 15px; }
+  .solution .card-img-top {
+    width: 139px;
+    border-radius: 50%;
+    background-color: #F8F9FA;
+    padding: 40px;
+    margin: 32px 75px 7px 75px; }
+    .solution .card-img-top img {
+      width: 60px; }
+  .solution .card-title_2 {
+    color: #fff; }
+  .solution .card-title {
+    font-family: "BebasNeueBolt", sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase; }
+  .solution .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #495666; }
+  .solution .card-text_2 {
+    color: #fff; }
+  .solution .card-title2 {
+    font-family: "BebasNeueBolt", sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #2A2A2A; }
+  .solution .card-text2 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495666;
+    margin-top: 12px; }
+  .solution .card2 {
+    width: 280px;
+    margin-top: 38px;
+    margin-right: 10px;
+    padding-bottom: 63px; }
+  .solution .card-body2 {
+    margin-left: 10px; }
+  .solution .card-img-bot {
+    margin: -15px -25px; }
+
+.catalog {
+  max-width: 1350px;
+  margin: auto;
+  margin-top: 70px; }
+  .catalog .title-pl {
+    padding-left: 319px; }
+  .catalog .catalog_content {
+    max-width: 1170px;
+    margin: auto; }
+    .catalog .catalog_content h6 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 35px;
+      text-transform: uppercase;
+      color: #2A2A2A;
+      margin-top: 15px;
+      margin-left: 20px; }
+    .catalog .catalog_content ul {
+      margin-left: 147px;
+      margin-top: 15px; }
+    .catalog .catalog_content .nav-pills li:last-child {
+      padding-right: 0; }
+    .catalog .catalog_content .nav-pills li {
+      padding-right: 51px; }
+    .catalog .catalog_content .nav-pills a {
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 35px;
+      text-transform: uppercase;
+      color: rgba(73, 86, 102, 0.5);
+      padding-bottom: 22px;
+      transition: 0.4s; }
+    .catalog .catalog_content .nav-pills a:hover {
+      color: #0041A5;
+      border-bottom: 5px solid #0041A5;
+      transition: 0.4s; }
+    .catalog .catalog_content .nav-pills a.active, .catalog .catalog_content .nav-pills .show > a {
+      color: #0041A5;
+      border-bottom: 5px solid #0041A5; }
+    .catalog .catalog_content .arrow {
+      border-radius: 50%;
+      border: 2px solid #E9EBEF;
+      position: absolute;
+      top: 31px;
+      left: 35px;
+      width: 50px;
+      height: 50px;
+      background: #fff; }
+      .catalog .catalog_content .arrow .arrow-icon {
+        background-image: url(../img/arrow-link.png);
+        height: 20px;
+        width: 25px;
+        margin: 13px auto; }
+    .catalog .catalog_content .card {
+      border-radius: 0; }
+    .catalog .catalog_content .card:hover {
+      transition: 0.4s; }
+      .catalog .catalog_content .card:hover .arrow {
+        border: 2px solid #E92626;
+        background: #E92626;
+        box-shadow: 0px 5px 10px rgba(233, 38, 38, 0.2); }
+        .catalog .catalog_content .card:hover .arrow .arrow-icon {
+          background-image: url(../img/arrow-link_hover.png); }
+      .catalog .catalog_content .card:hover .cards-link {
+        color: #E92626; }
+    .catalog .catalog_content .card-img-top {
+      width: 196px;
+      height: 165px;
+      margin: 32px 0 8px 40px; }
+    .catalog .catalog_content .card-title {
+      font-family: "BebasNeueBolt", sans-serif;
+      font-size: 24px;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: #2A2A2A; }
+    .catalog .catalog_content .card-text {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #495666;
+      margin-bottom: 38px; }
+    .catalog .catalog_content .cards-link {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-decoration-line: underline;
+      text-transform: uppercase;
+      color: #0041A5; }
+  .catalog .btn_ {
+    margin-top: 60px;
+    margin-bottom: 153px; }
+  .catalog .btn_link {
+    position: relative;
+    left: 33.6%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.4s;
+    padding: 27px 47px;
+    background-color: #E92626;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(233, 38, 38, 0.3); }
+    .catalog .btn_link img {
+      margin-left: -13px;
+      margin-right: 18px; }
+  .catalog .btn_link:hover {
+    color: #E92626;
+    background-color: #fff;
+    transition: 0.4s; }
+
+@media (max-width: 992px) {
+  .navbar-light .navbar-toggler {
+    background: #fff;
+    border-radius: 0; }
+  .navbar-nav {
+    margin-left: 130px; }
+  .header .navbar .butn {
+    padding: 12px 10px;
+    margin-left: 115px; }
+  .header .navbar .call img {
+    margin-bottom: 30px; }
+  .header .navbar .web img {
+    margin-left: 130px;
+    margin-top: 30px; }
+  .header .navbar .web p {
+    margin-top: 30px; }
+  .header .header-about {
+    margin-top: 70px; }
+    .header .header-about h1 {
+      font-size: 70px;
+      line-height: 70px;
+      margin-left: 70px; }
+    .header .header-about .certeficate {
+      margin: 0; }
+    .header .header-about .about_btn {
+      margin-left: 70px; }
+      .header .header-about .about_btn p {
+        padding: 20px 0; }
+  .head_title h3 {
+    font-size: 38px;
+    line-height: 36px; }
+  .head_title h2 {
+    font-size: 93px;
+    line-height: 92px;
+    padding-left: 60px; }
+  .solution .card_content {
+    max-width: 680px; }
+  .catalog {
+    max-width: 680px;
+    margin-top: 0; }
+    .catalog .title-pl {
+      padding-left: 39px; }
+    .catalog .catalog_content .nav-pills li {
+      padding-right: 90px; }
+    .catalog .catalog_content .card-img-top {
+      width: 132px;
+      height: 111px; }
+    .catalog .catalog_content .card-title {
+      font-size: 17px;
+      line-height: 17px; }
+    .catalog .catalog .catalog_content .card-text {
+      line-height: 11px; }
+    .catalog .btn_link {
+      left: 15.6%; } }
+
+/*# sourceMappingURL=main.css.map */
